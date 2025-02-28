@@ -1,6 +1,7 @@
 import './App.css';
 import FoodTruck from './components/FoodTruck';
 
+
 const App = () => {
 
   return (
@@ -10,34 +11,34 @@ const App = () => {
           <h1>Food Truck Favorites</h1>
         
         <div className="Card">
-            <FoodTruck source='./components/images/tacos-pic.webp' truckName='Test' country='Vietnam'/>
+            <FoodTruck  truckName='Test' country='Vietnam' alt='Test-pic'/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         <div className="Card">
-            <FoodTruck source='' truckName='' country=''/>
+            <FoodTruck truckName='' country=''/>
         </div>
         
       
