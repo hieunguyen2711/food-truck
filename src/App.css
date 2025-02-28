@@ -6,6 +6,7 @@
   font-weight: 400;
   color: black;
   line-height: 24px;
+  /* padding: 50px */
   
 }
 
@@ -24,4 +25,50 @@ body h1 {
   color: white;
   text-shadow: black 1px 0 10px;
   margin-left: 50px;
+}
+
+.Card {
+  color: black;
+  background-color: white;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px #817c7c33;
+  font-size:medium;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  height: 450px;
+  /* width: 300px; */
+}
+
+.Card img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #cc0606;
+  cursor: pointer;
+  transition: border-color .25s;
+  color: white;
+}
+
+.card-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+
 }
