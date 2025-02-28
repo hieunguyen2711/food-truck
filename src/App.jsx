@@ -1,6 +1,6 @@
 import './App.css';
 import FoodTruck from './components/FoodTruck';
-import tacosPic from "./components/tacos-pic.webp";
+import tacosPic from "./components/images/tacos-pic.webp";
 
 
 
