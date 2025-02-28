@@ -8,7 +8,9 @@ const FoodTruck = (props) => {
             <img src={props.src} alt={props.alt} />
             <h3>{props.truckName}</h3>
             <h4>{props.country}</h4>
-            <button>View Menu</button>
+            <button>
+                <a href={props.link}>View Menu</a>
+            </button>
 
         </>
           
