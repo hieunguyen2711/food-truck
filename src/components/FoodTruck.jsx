@@ -9,7 +9,7 @@ const FoodTruck = (props) => {
             <h3>{props.truckName}</h3>
             <h4>{props.country}</h4>
             <button>
-                <a href={props.link}>View Menu</a>
+                <a href={props.link} target="blank">View Menu</a>
             </button>
 
         </>

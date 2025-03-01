@@ -6,7 +6,8 @@
   font-weight: 400;
   color: black;
   line-height: 24px;
-  /* padding: 50px */
+  padding-left: 60px;
+  padding-right: 60px;
   
 }
 
@@ -25,6 +26,7 @@ body h1 {
   color: white;
   text-shadow: black 1px 0 10px;
   margin-left: 50px;
+  margin-top: 80px;
 }
 
 .Card {
@@ -37,11 +39,7 @@ body h1 {
   backdrop-filter: blur(2px);
   text-align: center;
   margin-bottom: 30px;
-  /* margin-left: 30px; */
   height: 450px;
-  /* flex: 1 1  calc(25% - 20px);
-  max-width: calc(25% - 20px); */
-  /* margin: 10px; */
   width: 300px;
 }
 
@@ -66,14 +64,34 @@ button {
   background-color: #cc0606;
   cursor: pointer;
   transition: border-color .25s;
+  
+  
+}
+
+button a {
+  text-decoration: none;
   color: white;
 }
+
 
 .card-list {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  /* margin: 50px; */
-  /* max-width: 1200px; */
+  margin-top: 100px;
+  gap: 4px;
+}
+
+body h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  display: block;
+}
+
+body h4 {
+  margin-top:0;
+  font-size: 18px;
 }
