@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/gallery/food-truck-project-CTexKca' title='Food Truck Project' width='' alt='This GIF shows the community board with 12 different food trucks in different countries' />
+<img src='https://i.imgur.com/L2xfFqA.mp4' title='Food Truck Project' width='' alt='This GIF shows the community board with 12 different food trucks in different countries' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
